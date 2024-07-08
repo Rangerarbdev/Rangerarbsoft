@@ -297,7 +297,7 @@
             flex-direction: column;
             background-color: rgb(50, 50, 50);
             display: flex; /* flex */ /* none */
-        /*  opacity: 0; */
+            opacity: 0; 
             z-index: 10; 
         }
 
