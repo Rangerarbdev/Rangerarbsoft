@@ -87,7 +87,7 @@
             width: 30%;
             height: 20px;
             margin-top: 0.3%;
-            margin-left: 27%;
+            margin-left: 24%;
             font-family: arial, sans-serif, monospace;
             font-size: 34px;
             font-weight: 700;
@@ -173,7 +173,7 @@
             width: 30%;
             height: 20px;
             margin-top: 60px;
-            margin-left: 46%;
+            margin-left: 43%;
             font-family: cursive;
             font-size: 22px;
             font-weight: 700;
@@ -182,10 +182,11 @@
           }
         
           .img-rangerarbsoft {
-            width: 30%;
-            height: 45%;
-            margin-top: 13%;
-            margin-left: 37%;
+            width: 15%;
+            height: 22%;
+            margin-top: 18%;
+            margin-left: 42%;
+            background-image: url("Imagenes/Alberto Beccari - copia (2).png");
             position: fixed;
             z-index: 40;
           }
