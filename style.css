@@ -222,15 +222,15 @@
             /*--Aqui comienza la Ventana de Placeholder --*/
          /*---------------------------------------------------------------------*/
         .icono-placeholder-image {
-            width: 60%;
-            height: 50px;
+            width: 100%;
+            height: 30px;
             margin-top: 0.5px;
-            margin-left: -57%; /* -57% */
+            margin-left: -129%; /* -57% */
             padding-top: 2px;
             padding-left: 5%;
             background-color: rgb(50, 250, 80);
             color: rgb(10, 10, 250);
-            font-size: 28px;
+            font-size: 18px;
             border-radius: 10px;
             align-items: center;
             text-align: center;
