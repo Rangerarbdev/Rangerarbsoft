@@ -96,6 +96,20 @@
             float: left;
           }
 
+          .sign {
+            display: none;
+            width: 8%;
+            height: 20px;
+            margin-top: 0.5%;
+            margin-left: 52.3%;
+            font-family: arial, sans-serif, monospace;
+            font-size: 14px;
+            font-weight: 700;
+            color: rgb(10, 10, 250);
+            text-align: right;
+            float: left;
+          }
+
           #btn3 {
             width: 25px;
             height: 25px;
@@ -118,6 +132,20 @@
             border-radius: 50px;
             float: left;
             cursor: pointer;
+          }
+
+          .sign-up {
+            display: none;
+            width: 8%;
+            height: 20px;
+            margin-top: -2.3%;
+            margin-left: 84.5%;
+            font-family: arial, sans-serif, monospace;
+            font-size: 14px;
+            font-weight: 700;
+            color: rgb(10, 10, 250);
+            text-align: right;
+            float: left;
           }
 
           #btn4 {
@@ -145,22 +173,22 @@
           }
 
           .container-dos {
-            width: 30%;
+            width: 50%;
             height: 20px;
-            margin-top: 60px;
-            margin-left: 43%;
+            margin-top: 25px;
+            margin-left: 27%;
             font-family: cursive;
-            font-size: 22px;
+            font-size: 14px;
             font-weight: 700;
             color: rgb(10, 10, 250);
             position: absolute;
-          }
+          } 
         
           .img-rangerarbsoft {
             width: 20%;
-            height: 10%;
-            margin-top: 90%;
-            margin-left: 40%;
+            height: 8%;
+            margin-top: 85%;
+            margin-left: 38%;
             background-image: url("Imagenes/Alberto Beccari - copia (2).png");
             position: fixed;
             z-index: 40;
@@ -263,7 +291,7 @@
         /*--Aqui comienza la Ventana de Enlaces Menú --*/
         /***********************************************************************/
         .container-enlaces-menu {
-            width: 20%;
+            width: 30%;
             height: 91vh;
             margin-top: 0.2px;
             margin-left: 0.5px;
@@ -292,12 +320,12 @@
 
         .titulo-uno {
             display: flex;
-            width: 50%;
+            width: 10%;
             height: 35px;
             margin-top: 25px;
-            margin-left: 15%;
+            margin-left: 2%;
             font-family: cursive;
-            font-size: 30px;
+            font-size: 12px;
             color: rgb(250, 250, 250);
         }
 
@@ -319,9 +347,11 @@
 
         .container-enlaces-menu li img {
             display: inline-block;
-            width: 70px; /* Ajusta el ancho de la imagen */
-            height: 70px; /* Ajusta la altura de la imagen */
-            margin-right: 10px; /* Agrega un margen derecho para separar la imagen del enlace */
+            width: 30px; /* Ajusta el ancho de la imagen */
+            height: 30px; /* Ajusta la altura de la imagen */
+            margin-top: 35%;
+            margin-bottom: 35%;
+            position: absolute;
         }
         
 
@@ -329,13 +359,13 @@
             display: inline-block;
             width: auto; /* Ajusta el ancho del enlace según su contenido */
             height: auto; /* Ajusta la altura del enlace según su contenido */
-            margin-top: 0; /* Elimina el margen superior */
+            margin-top: 5px; /* Elimina el margen superior */
             margin-bottom: 0; /* Elimina el margen inferior */
             margin-left: 0; /* Elimina el margen izquierdo */
             padding-top: 0; /* Elimina el padding superior */
             padding-bottom: 0; /* Elimina el padding inferior */
             padding-right: 30%; /* Elimina el padding derecho */
-            font-size: 30px;
+            font-size: 24px;
             font-weight: 700;
             color: rgb(250, 250, 250);
             text-decoration: none;
