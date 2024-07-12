@@ -20,7 +20,7 @@
 
 /*  *****************************************************************************************
    -----------------------------------------------------------------------------------------*/
-   @media (min-width: 344px) and (max-width: 575px) {  /* (min-width: 340px) and (max-width: 411px) */      
+   @media (min-width: 344px) and (max-width: 575px) {  /* (min-width: 344px) and (max-width: 575px) */      
     /*------------------------------------------------------------------------------------------
      ********************************************************************************************/
         body {
@@ -379,11 +379,11 @@
         }
       }
 
-      /*---  MÓVILES PEQUEÑOS  ---*/
+      /*---  DISPOSITIVOS SMART  ---*/
 
 /*  *****************************************************************************************
    -----------------------------------------------------------------------------------------*/
-   @media screen and (min-width: 412px) and (max-width: 411px) {        
+   @media (min-width: 1701px) and (max-width: 1900px) {  /* (min-width: 1200px) and (max-width: 1900px) */      
     /*------------------------------------------------------------------------------------------
      ********************************************************************************************/
         body {
@@ -393,17 +393,18 @@
         }
 
         #container-header {
+          display: flexbox;
           width: 100%;
-          height: 50px;
+          height: 75px;
           background-color: rgb(50, 250, 80);
           margin: 0;
           z-index: 250;
         }
 
         #btn1 {
-            width: 25px;
-            height: 25px;
-            margin-top: 3.5%;
+            width: 50px;
+            height: 50px;
+            margin-top: 0.7%;
             margin-left: 2%;
             border-radius: 50px;
             float: left;
@@ -411,8 +412,8 @@
           }
 
           .logo {
-            width: 25px;
-            height: 25px;
+            width: 50px;
+            height: 50px;
             margin-top: 0;
             margin-left: 0;
             padding-top: 0;
@@ -424,49 +425,73 @@
             background-image: url("Imagenes/Alberto Beccari-copia(2).png");
           }
 
+          .home {
+            width: 4%;
+            height: 20px;
+            margin-top: 1.5%;
+            margin-left: 0.1%;
+            font-family: arial, sans-serif, monospace;
+            font-size: 22px;
+            font-weight: 700;
+            color: rgb(10, 10, 250);
+            text-align: right;
+            float: left;
+
+          }
+
           #btn2 {
-            width: 25px;
-            height: 25px;
-            margin-top: 3.5%;
+            width: 50px;
+            height: 50px;
+            margin-top: 0.7%;
             margin-left: 7%;
-            /*  border: 0.5px solid rgb(30, 30, 30); */
             border-radius: 50px;
             float: left;
             position: relative;
           }
         
           .lupa {
-            width: 25px;
-            height: 25px;
+            width: 50px;
+            height: 50px;
             margin-top: 3.5%;
             margin-left: 0;
-            /*  border: 0.5px solid rgb(30, 30, 30); */
             border-radius: 50px;
             float: left;
             cursor: pointer;
             background-image: url("Imagenes/mail_search.png");
           }
 
+          .buscar {
+            width: 4%;
+            height: 20px;
+            margin-top: 1.5%;
+            margin-left: 0.2%;
+            font-family: arial, sans-serif, monospace;
+            font-size: 22px;
+            font-weight: 700;
+            color: rgb(10, 10, 250);
+            text-align: right;
+            float: left;
+          }
+
           .container-uno {
             width: 30%;
             height: 20px;
-            margin-top: 1%;
-            margin-left: 8%;
+            margin-top: 0.5%;
+            margin-left: 23%;
             font-family: arial, sans-serif, monospace;
-            font-size: 18px;
+            font-size: 28px;
             font-weight: 700;
             color: rgb(10, 10, 250);
             float: left;
           }
 
           .sign {
-            display: none;
-            width: 8%;
+            width: 15%;
             height: 20px;
-            margin-top: 0.5%;
-            margin-left: 52.3%;
+            margin-top: -0.1%;
+            margin-left: 43%;
             font-family: arial, sans-serif, monospace;
-            font-size: 14px;
+            font-size: 22px;
             font-weight: 700;
             color: rgb(10, 10, 250);
             text-align: right;
@@ -474,57 +499,18 @@
           }
 
           #btn3 {
-            width: 25px;
-            height: 25px;
-            margin-top: -7.5%;
-            margin-left: 75%;
-            /*  border: 0.5px solid rgb(30, 30, 30); */
+            width: 50px;
+            height: 50px;
+            margin-top: -35px;
+            margin-left: 63%;
             border-radius: 50px;
             float: left;
             cursor: pointer;
           }
         
           .registrarse {
-            width: 25px;
-            height: 25px;
-            margin-top: -7.5%;
-            margin-left: 0;
-            padding-top: 0px;
-            padding-left: 0px;
-            /*  border: 0.5px solid rgb(30, 30, 30); */
-            border-radius: 50px;
-            float: left;
-            cursor: pointer;
-          }
-
-          .sign-up {
-            display: none;
-            width: 8%;
-            height: 20px;
-            margin-top: -2.3%;
-            margin-left: 84.5%;
-            font-family: arial, sans-serif, monospace;
-            font-size: 14px;
-            font-weight: 700;
-            color: rgb(10, 10, 250);
-            text-align: right;
-            float: left;
-          }
-
-          #btn4 {
-            width: 25px;
-            height: 25px;
-            margin-top: -7.5%;
-            margin-left: 90%;
-            /*  border: 0.5px solid rgb(30, 30, 30); */
-            border-radius: 50px;
-            float: left;
-            cursor: pointer;
-          }
-        
-          .personal {
-            width: 25px;
-            height: 25px;
+            width: 50px;
+            height: 50px;
             margin-top: 0;
             margin-left: 0;
             padding-top: 0px;
@@ -535,23 +521,58 @@
             cursor: pointer;
           }
 
+          .sign-up {
+            width: 8%;
+            height: 20px;
+            margin-top: -2%;
+            margin-left: 86%;
+            font-family: arial, sans-serif, monospace;
+            font-size: 22px;
+            font-weight: 700;
+            color: rgb(10, 10, 250);
+            text-align: right;
+            float: left;
+          }
+
+          #btn4 {
+            width: 50px;
+            height: 50px;
+            margin-top: -2.8%;
+            margin-left: 95%;
+            border-radius: 50px;
+            float: left;
+            cursor: pointer;
+          }
+        
+          .personal {
+            width: 50px;
+            height: 50px;
+            margin-top: 0;
+            margin-left: 0;
+            padding-top: 0px;
+            padding-left: 0px;
+            border-radius: 50px;
+            float: left;
+            cursor: pointer;
+          }
+
           .container-dos {
             width: 50%;
             height: 20px;
-            margin-top: 25px;
-            margin-left: 27%;
+            margin-top: 45px;
+            margin-left: 45.5%;
             font-family: cursive;
-            font-size: 14px;
+            font-size: 18px;
             font-weight: 700;
             color: rgb(10, 10, 250);
             position: absolute;
           } 
         
           .img-rangerarbsoft {
-            width: 20%;
-            height: 8%;
-            margin-top: 85%;
-            margin-left: 38%;
+            width: 13%;
+            height: 17%;
+            margin-top: 23%;
+            margin-left: 45%;
             background-image: url("Imagenes/Alberto Beccari - copia (2).png");
             position: fixed;
             z-index: 40;
@@ -561,19 +582,20 @@
 
           #contenedor-footer {
             width: 100%;
-            height: 50px;
+            height: 8%;
             background-color: rgb(50, 250, 80);
-            bottom: 0;
+            margin: 0;
             position: absolute;
+            bottom: 0;
             z-index: 250;
           }
 
           .copyright {
-            width: 30px;
-            height: 30px;
-            margin-top: 2.5%;
+            width: 40px;
+            height: 40px;
+            margin-top: 1.5%;
             margin-left: 5%;
-            padding-top: 5%;
+            padding-top: 0;
             padding-left: 0;
             border: 0.5px solid rgb(30, 30, 30);
             border-radius: 50px;
@@ -584,12 +606,12 @@
           .derechos {
             width: 90%;
             height: 20px;
-            margin-top: -8%;
-            margin-left: 17%;
-            padding-top: 2%;
-            padding-left: 0;
+            margin-top: -2%;
+            margin-left: 4%;
+            padding-top: 0;
+            padding-left: 5%;
             font-family: arial, sans-serif, monospace;
-            font-size: 12px;
+            font-size: 22px;
             font-weight: 700;
             color: rgb(10, 10, 250);
             float: left;
@@ -598,12 +620,12 @@
           .periodo {
             width: 20%;
             height: 20px;
-            margin-top: -6%;
-            margin-left: 85%;
+            margin-top: -2%;
+            margin-left: 80%;
             padding-top: 0;
             padding-left: 0;
             font-family: arial, sans-serif, monospace;
-            font-size: 14px;
+            font-size: 22px;
             font-weight: 700;
             color: rgb(10, 10, 250);
             float: left;
@@ -613,15 +635,15 @@
             /*--Aqui comienza la Ventana de Placeholder --*/
          /*---------------------------------------------------------------------*/
         .icono-placeholder-image {
-            width: 100%;
-            height: 30px;
+            width: 50%;
+            height: 50px;
             margin-top: 0.5px;
-            margin-left: -129%; /* -57% */
+            margin-left: -39%; /* -57% */
             padding-top: 2px;
             padding-left: 5%;
             background-color: rgb(50, 250, 80);
             color: rgb(10, 10, 250);
-            font-size: 18px;
+            font-size: 20px;
             border-radius: 10px;
             align-items: center;
             text-align: center;
@@ -654,7 +676,7 @@
         /*--Aqui comienza la Ventana de Enlaces Menú --*/
         /***********************************************************************/
         .container-enlaces-menu {
-            width: 30%;
+            width: 20%;
             height: 91vh;
             margin-top: 0.2px;
             margin-left: 0.5px;
@@ -686,9 +708,9 @@
             width: 10%;
             height: 35px;
             margin-top: 25px;
-            margin-left: 2%;
+            margin-left: 30%;
             font-family: cursive;
-            font-size: 12px;
+            font-size: 20px;
             color: rgb(250, 250, 250);
         }
 
@@ -710,8 +732,8 @@
 
         .container-enlaces-menu li img {
             display: inline-block;
-            width: 30px; /* Ajusta el ancho de la imagen */
-            height: 30px; /* Ajusta la altura de la imagen */
+            width: 45px; /* Ajusta el ancho de la imagen */
+            height: 45px; /* Ajusta la altura de la imagen */
             margin-top: 35%;
             margin-bottom: 35%;
             position: absolute;
@@ -724,11 +746,11 @@
             height: auto; /* Ajusta la altura del enlace según su contenido */
             margin-top: 5px; /* Elimina el margen superior */
             margin-bottom: 0; /* Elimina el margen inferior */
-            margin-left: 0; /* Elimina el margen izquierdo */
+            margin-left: 20%; /* Elimina el margen izquierdo */
             padding-top: 0; /* Elimina el padding superior */
             padding-bottom: 0; /* Elimina el padding inferior */
-            padding-right: 30%; /* Elimina el padding derecho */
-            font-size: 24px;
+            padding-right: 20%; /* Elimina el padding derecho */
+            font-size: 30px;
             font-weight: 700;
             color: rgb(250, 250, 250);
             text-decoration: none;
@@ -768,7 +790,7 @@
             width: 60px;
             height: 60px;
             margin-top: 1%;
-            margin-left: 6%;
+            margin-left: 3%;
             border-radius: 50px;
             float: left;
             
@@ -786,6 +808,19 @@
             float: left;
             cursor: pointer;
             background-image: url("Imagenes/Alberto Beccari-copia(2).png");
+          }
+
+          .home {
+            width: 4%;
+            height: 20px;
+            margin-top: 2%;
+            margin-left: 0.3%;
+            font-family: arial, sans-serif, monospace;
+            font-size: 26px;
+            font-weight: 700;
+            color: rgb(10, 10, 250);
+            text-align: right;
+            float: left;
           }
 
           #btn2 {
@@ -811,11 +846,24 @@
             background-image: url("Imagenes/mail_search.png");
           }
 
+          .buscar {
+            width: 4%;
+            height: 20px;
+            margin-top: 2%;
+            margin-left: 0.4%;
+            font-family: arial, sans-serif, monospace;
+            font-size: 24px;
+            font-weight: 700;
+            color: rgb(10, 10, 250);
+            text-align: right;
+            float: left;
+          }
+
           .container-uno {
             width: 30%;
             height: 20px;
             margin-top: 0.3%;
-            margin-left: 24%;
+            margin-left: 20%;
             font-family: arial, sans-serif, monospace;
             font-size: 34px;
             font-weight: 700;
@@ -827,7 +875,7 @@
             width: 8%;
             height: 20px;
             margin-top: 0.6%;
-            margin-left: 51.3%;
+            margin-left: 45.5%;
             font-family: arial, sans-serif, monospace;
             font-size: 24px;
             font-weight: 700;
@@ -913,7 +961,7 @@
             width: 15%;
             height: 22%;
             margin-top: 18%;
-            margin-left: 42%;
+            margin-left: 44%;
             background-image: url("Imagenes/Alberto Beccari - copia (2).png");
             position: fixed;
             z-index: 40;
@@ -934,7 +982,7 @@
           .copyright {
             width: 50px;
             height: 50px;
-            margin-top: 1.5%;
+            margin-top: 0.5%;
             margin-left: 5%;
             padding-top: 0;
             padding-left: 0;
@@ -947,7 +995,7 @@
           .derechos {
             width: 20%;
             height: 20px;
-            margin-top: 1.8%;
+            margin-top: 0.9%;
             margin-left: 1%;
             padding-top: 0;
             padding-left: 0;
@@ -961,7 +1009,7 @@
           .periodo {
             width: 20%;
             height: 20px;
-            margin-top: 1.8%;
+            margin-top: 0.9%;
             margin-left: 51%;
             padding-top: 0;
             padding-left: 0;
