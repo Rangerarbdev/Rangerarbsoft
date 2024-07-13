@@ -405,7 +405,7 @@
     /*---  Aqui comienza la presentación de Nosotros  ---*/
     /*-------------------------------------------------------------------*/
     .container-rangerarbsoft {
-      width: 50%;
+      width: 63%;
       height: 92vh;
       margin-top: 0.1%; /* 60% */
       margin-left: -67.3%; /* 67.3% */
@@ -428,13 +428,13 @@
 
     .container-rangerarbsoft.activado {
       display: block;
-      transform: translate(175%); /* 175% */
+      transform: translate(164.5%); /* 175% */
       animation: muestraContainerRangerarbsoft 350ms ease-in-out both;
     }
 
     .img-ranger {
       width: 100%;
-      height: 30vh;
+      height: 28vh;
       margin-top: 1px;
       margin-left: 0%;
       align-content: center;
@@ -443,7 +443,7 @@
 
     .img-nosot {
       width: 100%;
-      height: 30vh;
+      height: 28vh;
       margin-top: 1px;
       margin-left: 0%;
       align-content: center;
@@ -457,7 +457,7 @@
       margin-left: 0.5%;
       padding: auto;
       background-color: rgb(200, 200, 200);
-      font-size: 25px;
+      font-size: 18px;
       font-weight: 600;
       color: rgb(0, 50, 225);
       text-align: justify;
@@ -471,7 +471,7 @@
       margin-left: 0.5%;
       padding: auto;
       background-color: rgb(200, 200, 200);
-      font-size: 25px;
+      font-size: 18px;
       font-weight: 600;
       color: rgb(0, 50, 225);
       text-align: justify;
