@@ -228,9 +228,9 @@
       }
 
       .copyright {
-        width: 35px;
-        height: 35px;
-        margin-top: 0.7%;
+        width: 30px;
+        height: 30px;
+        margin-top: 4%;
         margin-left: 5%;
         padding-top: 0;
         padding-left: 0;
@@ -243,12 +243,12 @@
       .derechos {
         width: 90%;
         height: 20px;
-        margin-top: -2.8%;
-        margin-left: 4%;
+        margin-top: -5.8%;
+        margin-left: 10%;
         padding-top: 0;
         padding-left: 5%;
         font-family: arial, sans-serif, monospace;
-        font-size: 18px;
+        font-size: 14px;
         font-weight: 700;
         color: rgb(10, 10, 250);
         float: left;
@@ -257,12 +257,12 @@
       .periodo {
         width: 20%;
         height: 20px;
-        margin-top: -3%;
-        margin-left: 80%;
+        margin-top: -6%;
+        margin-left: 85%;
         padding-top: 0;
         padding-left: 0;
         font-family: arial, sans-serif, monospace;
-        font-size: 18px;
+        font-size: 14px;
         font-weight: 700;
         color: rgb(10, 10, 250);
         float: left;
