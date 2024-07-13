@@ -762,6 +762,84 @@
             background-color: rgb(120, 120, 120);
             color: rgb(50, 50, 250);
         }
+
+        /*********************************************************************/
+        /*---  Aqui comienza la presentación de Nosotros  ---*/
+        /*-------------------------------------------------------------------*/
+        .container-rangerarbsoft {
+          width: 50%;
+          height: 92vh;
+          margin-top: 0.1%; /* 60% */
+          margin-left: -67.3%; /* 67.3% */
+          border-radius: 15px;
+          background-color: rgb(130, 130, 130);
+          position: absolute;
+          display: none; /* flexbox */ /* none */
+          opacity: 0; 
+          z-index: 50;
+        }
+
+        @keyframes muestraContainerRangerarbsoft {
+          from {
+            opacity: 0;
+          }
+          to {
+            opacity: 1;
+          }
+        }
+
+        .container-rangerarbsoft.activado {
+          display: block;
+          transform: translate(175%); /* 175% */
+          animation: muestraContainerRangerarbsoft 350ms ease-in-out both;
+        }
+
+        .img-ranger {
+          width: 100%;
+          height: 30vh;
+          margin-top: 1px;
+          margin-left: 0%;
+          align-content: center;
+          align-items: center;
+        }
+
+        .img-nosot {
+          width: 100%;
+          height: 30vh;
+          margin-top: 1px;
+          margin-left: 0%;
+          align-content: center;
+          align-items: center;
+        }
+
+        .descrip-ranger {
+          width: 99%;
+          height: auto;
+          margin-top: 0.8%;
+          margin-left: 0.5%;
+          padding: auto;
+          background-color: rgb(200, 200, 200);
+          font-size: 25px;
+          font-weight: 600;
+          color: rgb(0, 50, 225);
+          text-align: justify;
+          text-decoration: none;
+        }
+
+        .descrip-disk {
+          width: 99%;
+          height: auto;
+          margin-top: 0.8%;
+          margin-left: 0.5%;
+          padding: auto;
+          background-color: rgb(200, 200, 200);
+          font-size: 25px;
+          font-weight: 600;
+          color: rgb(0, 50, 225);
+          text-align: justify;
+          text-decoration: none;
+        }
+
       }
 
        /*---  DISPOSITIVOS TV CH  ---*/
@@ -1142,11 +1220,88 @@
             list-style-type: none;
         }
         
-
         .container-enlaces-menu li a:hover {
             background-color: rgb(120, 120, 120);
             color: rgb(50, 50, 250);
         }
+
+        /*********************************************************************/
+        /*---  Aqui comienza la presentación de Nosotros  ---*/
+        /*-------------------------------------------------------------------*/
+        .container-rangerarbsoft {
+          width: 50%;
+          height: 92vh;
+          margin-top: 0.1%; /* 60% */
+          margin-left: -67.3%; /* 67.3% */
+          border-radius: 15px;
+          background-color: rgb(130, 130, 130);
+          position: absolute;
+          display: none; /* flexbox */ /* none */
+          opacity: 0; 
+          z-index: 50;
+        }
+
+        @keyframes muestraContainerRangerarbsoft {
+          from {
+            opacity: 0;
+          }
+          to {
+            opacity: 1;
+          }
+        }
+
+        .container-rangerarbsoft.activado {
+          display: block;
+          transform: translate(175%); /* 175% */
+          animation: muestraContainerRangerarbsoft 350ms ease-in-out both;
+        }
+
+        .img-ranger {
+          width: 100%;
+          height: 30vh;
+          margin-top: 1px;
+          margin-left: 0%;
+          align-content: center;
+          align-items: center;
+        }
+
+        .img-nosot {
+          width: 100%;
+          height: 30vh;
+          margin-top: 1px;
+          margin-left: 0%;
+          align-content: center;
+          align-items: center;
+        }
+
+        .descrip-ranger {
+          width: 99%;
+          height: auto;
+          margin-top: 0.8%;
+          margin-left: 0.5%;
+          padding: auto;
+          background-color: rgb(200, 200, 200);
+          font-size: 25px;
+          font-weight: 600;
+          color: rgb(0, 50, 225);
+          text-align: justify;
+          text-decoration: none;
+        }
+
+        .descrip-disk {
+          width: 99%;
+          height: auto;
+          margin-top: 0.8%;
+          margin-left: 0.5%;
+          padding: auto;
+          background-color: rgb(200, 200, 200);
+          font-size: 25px;
+          font-weight: 600;
+          color: rgb(0, 50, 225);
+          text-align: justify;
+          text-decoration: none;
+        }
+
       }
 
 
@@ -1532,6 +1687,83 @@
         .container-enlaces-menu li a:hover {
             background-color: rgb(120, 120, 120);
             color: rgb(50, 50, 250);
+        }
+
+        /*********************************************************************/
+        /*---  Aqui comienza la presentación de Nosotros  ---*/
+        /*-------------------------------------------------------------------*/
+        .container-rangerarbsoft {
+          width: 50%;
+          height: 92vh;
+          margin-top: 0.1%; /* 60% */
+          margin-left: -67.3%; /* 67.3% */
+          border-radius: 15px;
+          background-color: rgb(130, 130, 130);
+          position: absolute;
+          display: none; /* flexbox */ /* none */
+          opacity: 0; 
+          z-index: 50;
+        }
+
+        @keyframes muestraContainerRangerarbsoft {
+          from {
+            opacity: 0;
+          }
+          to {
+            opacity: 1;
+          }
+        }
+
+        .container-rangerarbsoft.activado {
+          display: block;
+          transform: translate(175%); /* 175% */
+          animation: muestraContainerRangerarbsoft 350ms ease-in-out both;
+        }
+
+        .img-ranger {
+          width: 100%;
+          height: 31vh;
+          margin-top: 1px;
+          margin-left: 0%;
+          align-content: center;
+          align-items: center;
+        }
+
+        .img-nosot {
+          width: 100%;
+          height: 31vh;
+          margin-top: 1px;
+          margin-left: 0%;
+          align-content: center;
+          align-items: center;
+        }
+
+        .descrip-ranger {
+          width: 99%;
+          height: auto;
+          margin-top: 0.8%;
+          margin-left: 0.5%;
+          padding: auto;
+          background-color: rgb(200, 200, 200);
+          font-size: 25px;
+          font-weight: 600;
+          color: rgb(0, 50, 225);
+          text-align: justify;
+          text-decoration: none;
+        }
+
+        .descrip-disk {
+          width: 99%;
+          height: auto;
+          margin-top: 0.8%;
+          margin-left: 0.5%;
+          padding: auto;
+          background-color: rgb(200, 200, 200);
+          font-size: 25px;
+          font-weight: 600;
+          color: rgb(0, 50, 225);
+          text-align: justify;
+          text-decoration: none;
         }
       }
 
@@ -1919,6 +2151,83 @@
         .container-enlaces-menu li a:hover {
             background-color: rgb(120, 120, 120);
             color: rgb(50, 50, 250);
+        }
+
+        /*********************************************************************/
+        /*---  Aqui comienza la presentación de Nosotros  ---*/
+        /*-------------------------------------------------------------------*/
+        .container-rangerarbsoft {
+          width: 50%;
+          height: 92vh;
+          margin-top: 0.1%; /* 60% */
+          margin-left: -67.3%; /* 67.3% */
+          border-radius: 15px;
+          background-color: rgb(130, 130, 130);
+          position: absolute;
+          display: none; /* flexbox */ /* none */
+          opacity: 0; 
+          z-index: 50;
+        }
+
+        @keyframes muestraContainerRangerarbsoft {
+          from {
+            opacity: 0;
+          }
+          to {
+            opacity: 1;
+          }
+        }
+
+        .container-rangerarbsoft.activado {
+          display: block;
+          transform: translate(175%); /* 175% */
+          animation: muestraContainerRangerarbsoft 350ms ease-in-out both;
+        }
+
+        .img-ranger {
+          width: 100%;
+          height: 34vh;
+          margin-top: 1px;
+          margin-left: 0%;
+          align-content: center;
+          align-items: center;
+        }
+
+        .img-nosot {
+          width: 100%;
+          height: 34vh;
+          margin-top: 1px;
+          margin-left: 0%;
+          align-content: center;
+          align-items: center;
+        }
+
+        .descrip-ranger {
+          width: 99%;
+          height: auto;
+          margin-top: 1.5%;
+          margin-left: 0.5%;
+          padding: auto;
+          background-color: rgb(200, 200, 200);
+          font-size: 26px;
+          font-weight: 600;
+          color: rgb(0, 50, 225);
+          text-align: justify;
+          text-decoration: none;
+        }
+
+        .descrip-disk {
+          width: 99%;
+          height: auto;
+          margin-top: 1.5%;
+          margin-left: 0.5%;
+          padding: auto;
+          background-color: rgb(200, 200, 200);
+          font-size: 26px;
+          font-weight: 600;
+          color: rgb(0, 50, 225);
+          text-align: justify;
+          text-decoration: none;
         }
       }
 
@@ -2312,15 +2621,15 @@
         /*---  Aqui comienza la presentación de Nosotros  ---*/
         /*-------------------------------------------------------------------*/
         .container-rangerarbsoft {
-          width: 60%;
+          width: 50%;
           height: 92vh;
           margin-top: 0.1%; /* 60% */
-          margin-left: 20.3%; /* 67.3% */
+          margin-left: -67.3%; /* 67.3% */
           border-radius: 15px;
           background-color: rgb(130, 130, 130);
           position: absolute;
-          display: flexbox; /* flexbox */ /* none */
-        /*  opacity: 0; */
+          display: none; /* flexbox */ /* none */
+          opacity: 0; 
           z-index: 50;
         }
 
@@ -2335,36 +2644,36 @@
 
         .container-rangerarbsoft.activado {
           display: block;
-          transform: translate(145.8%); /* 145.8% */
+          transform: translate(175%); /* 175% */
           animation: muestraContainerRangerarbsoft 350ms ease-in-out both;
         }
 
         .img-ranger {
-          width: 75%;
-          height: 32vh;
+          width: 100%;
+          height: 35vh;
           margin-top: 1px;
-          margin-left: 10%;
+          margin-left: 0%;
           align-content: center;
           align-items: center;
         }
 
         .img-nosot {
-          width: 75%;
-          height: 32vh;
+          width: 100%;
+          height: 35vh;
           margin-top: 1px;
-          margin-left: 10%;
+          margin-left: 0%;
           align-content: center;
           align-items: center;
         }
 
         .descrip-ranger {
-          width: 90%;
+          width: 99%;
           height: auto;
-          margin-top: 0.5%;
-          margin-left: 4%;
+          margin-top: 1.5%;
+          margin-left: 0.5%;
           padding: auto;
           background-color: rgb(200, 200, 200);
-          font-size: 20px;
+          font-size: 26px;
           font-weight: 600;
           color: rgb(0, 50, 225);
           text-align: justify;
@@ -2372,13 +2681,13 @@
         }
 
         .descrip-disk {
-          width: 98%;
+          width: 99%;
           height: auto;
-          margin-top: 0.5%;
-          margin-left: 1%;
+          margin-top: 1.5%;
+          margin-left: 0.5%;
           padding: auto;
           background-color: rgb(200, 200, 200);
-          font-size: 20px;
+          font-size: 26px;
           font-weight: 600;
           color: rgb(0, 50, 225);
           text-align: justify;
