@@ -857,7 +857,7 @@
         #container-header {
           display: flexbox;
           width: 100%;
-          height: 70px;
+          height: 55px;
           background-color: rgb(50, 250, 80);
           margin: 0;
           z-index: 250;
@@ -866,7 +866,7 @@
         #btn1 {
             width: 40px;
             height: 40px;
-            margin-top: 1.5%;
+            margin-top: 0.8%;
             margin-left: 2%;
             border-radius: 50px;
             float: left;
@@ -890,7 +890,7 @@
           .home {
             width: 4%;
             height: 20px;
-            margin-top: 2.5%;
+            margin-top: 1.7%;
             margin-left: 0.4%;
             font-family: arial, sans-serif, monospace;
             font-size: 20px;
@@ -904,7 +904,7 @@
           #btn2 {
             width: 40px;
             height: 40px;
-            margin-top: 1.5%;
+            margin-top: 0.8%;
             margin-left: 7%;
             border-radius: 50px;
             float: left;
@@ -925,7 +925,7 @@
           .buscar {
             width: 4%;
             height: 20px;
-            margin-top: 2.5%;
+            margin-top: 1.7%;
             margin-left: 0.4%;
             font-family: arial, sans-serif, monospace;
             font-size: 20px;
@@ -941,7 +941,7 @@
             margin-top: 0.5%;
             margin-left: 16%;
             font-family: arial, sans-serif, monospace;
-            font-size: 28px;
+            font-size: 24px;
             font-weight: 700;
             color: rgb(10, 10, 250);
             float: left;
@@ -950,8 +950,8 @@
           .sign {
             width: 15%;
             height: 20px;
-            margin-top: 0.2%;
-            margin-left: 36%;
+            margin-top: -0.2%;
+            margin-left: 35%;
             font-family: arial, sans-serif, monospace;
             font-size: 20px;
             font-weight: 700;
@@ -963,8 +963,8 @@
           #btn3 {
             width: 40px;
             height: 40px;
-            margin-top: -32px;
-            margin-left: 56%;
+            margin-top: -3%;
+            margin-left: 55%;
             border-radius: 50px;
             float: left;
             cursor: pointer;
@@ -986,7 +986,7 @@
           .sign-up {
             width: 8%;
             height: 20px;
-            margin-top: -2.5%;
+            margin-top: -3.5%;
             margin-left: 82.5%;
             font-family: arial, sans-serif, monospace;
             font-size: 22px;
@@ -999,7 +999,7 @@
           #btn4 {
             width: 40px;
             height: 40px;
-            margin-top: -3.5%;
+            margin-top: -4.2%;
             margin-left: 95%;
             border-radius: 50px;
             float: left;
@@ -1021,8 +1021,8 @@
           .container-dos {
             width: 50%;
             height: 20px;
-            margin-top: 45px;
-            margin-left: 45.5%;
+            margin-top: 30px;
+            margin-left: 40%;
             font-family: cursive;
             font-size: 18px;
             font-weight: 700;
@@ -1044,7 +1044,7 @@
 
           #contenedor-footer {
             width: 100%;
-            height: 8%;
+            height: 6%;
             background-color: rgb(50, 250, 80);
             margin: 0;
             position: absolute;
@@ -1053,9 +1053,9 @@
           }
 
           .copyright {
-            width: 35px;
-            height: 35px;
-            margin-top: 0.7%;
+            width: 30px;
+            height: 30px;
+            margin-top: 0.5%;
             margin-left: 5%;
             padding-top: 0;
             padding-left: 0;
@@ -1068,7 +1068,7 @@
           .derechos {
             width: 90%;
             height: 20px;
-            margin-top: -2.8%;
+            margin-top: -2.5%;
             margin-left: 4%;
             padding-top: 0;
             padding-left: 5%;
@@ -1082,7 +1082,7 @@
           .periodo {
             width: 20%;
             height: 20px;
-            margin-top: -3%;
+            margin-top: -2.5%;
             margin-left: 80%;
             padding-top: 0;
             padding-left: 0;
@@ -1181,8 +1181,8 @@
             align-items: center; /* Centra verticalmente los elementos */
             width: 100%;
             height: 70px; /* Ajusta la altura del elemento li */
-            margin-top: 1%; /* Ajusta el margen superior */
-            margin-bottom: 1%; /* Ajusta el margen inferior */
+            margin-top: 0.5%; /* Ajusta el margen superior */
+            margin-bottom: 0.5%; /* Ajusta el margen inferior */
             margin-left: 8%;
             font-size: 24px;
             font-weight: 600;
@@ -1229,16 +1229,16 @@
         /*---  Aqui comienza la presentación de Nosotros  ---*/
         /*-------------------------------------------------------------------*/
         .container-rangerarbsoft {
-          width: 50%;
+          width: 79.8%;
           height: 92vh;
-          margin-top: 0.1%; /* 60% */
-          margin-left: -67.3%; /* 67.3% */
+          margin-top: 0.1%; /* 0.1% */
+          margin-left: -79.8%; /* 67.3% */ /* 20% */
           border-radius: 15px;
           background-color: rgb(130, 130, 130);
           position: absolute;
-          display: none; /* flexbox */ /* none */
+          display: flex; /* flexbox */ /* none */
           opacity: 0; 
-          z-index: 50;
+          z-index: 50; 
         }
 
         @keyframes muestraContainerRangerarbsoft {
@@ -1252,7 +1252,7 @@
 
         .container-rangerarbsoft.activado {
           display: block;
-          transform: translate(175%); /* 175% */
+          transform: translate(125.2%); /* 125.2% */
           animation: muestraContainerRangerarbsoft 350ms ease-in-out both;
         }
 
@@ -1277,11 +1277,11 @@
         .descrip-ranger {
           width: 99%;
           height: auto;
-          margin-top: 0.8%;
+          margin-top: 1.5%;
           margin-left: 0.5%;
           padding: auto;
           background-color: rgb(200, 200, 200);
-          font-size: 25px;
+          font-size: 23px;
           font-weight: 600;
           color: rgb(0, 50, 225);
           text-align: justify;
@@ -1291,11 +1291,11 @@
         .descrip-disk {
           width: 99%;
           height: auto;
-          margin-top: 0.8%;
+          margin-top: 1.5%;
           margin-left: 0.5%;
           padding: auto;
           background-color: rgb(200, 200, 200);
-          font-size: 25px;
+          font-size: 23px;
           font-weight: 600;
           color: rgb(0, 50, 225);
           text-align: justify;
@@ -1462,7 +1462,7 @@
           #btn4 {
             width: 45px;
             height: 45px;
-            margin-top: -3%;
+            margin-top: -3.5%;
             margin-left: 95%;
             border-radius: 50px;
             float: left;
@@ -1644,8 +1644,8 @@
             align-items: center; /* Centra verticalmente los elementos */
             width: 100%;
             height: 70px; /* Ajusta la altura del elemento li */
-            margin-top: 14%; /* Ajusta el margen superior */
-            margin-bottom: 14%; /* Ajusta el margen inferior */
+            margin-top: 11%; /* Ajusta el margen superior */
+            margin-bottom: 11%; /* Ajusta el margen inferior */
             margin-left: 8%;
             font-size: 30px;
             font-weight: 600;
