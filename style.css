@@ -3403,6 +3403,155 @@
           text-align: justify;
           text-decoration: none;
         }
+
+        /*********************************************************************/
+        /*-- Aqui va la ventana de Contactos --*/
+        /*-------------------------------------------------------------------*/
+
+        .contenedor-contacto {
+          width: 50%;
+          height: 92vh;
+          margin-top: 0.1%;
+          margin-left: -67.3%; /* 20.2% */ /* -67.3% */
+          border-radius: 15px;
+          background-color: rgb(130, 130, 130);
+          flex-direction: column;
+          align-content: center;
+          justify-content: space-around;
+          position: absolute;
+          display: none; /* flex */ /* none */
+          opacity: 0;
+          z-index: 60;
+        }
+
+        @keyframes muestraContacto {
+          from {
+            opacity: 0;
+          }
+          to {
+            opacity: 1;
+          }
+        }
+
+        .contenedor-contacto.activado {
+          display: block;
+          transform: translate(175%);
+          animation: muestraContacto 350ms ease-in-out both;
+        }
+
+        .conten-cont {
+          display: flex;
+          margin: 0;
+          padding: 0;
+          flex-direction: column;
+          justify-content: space-around;
+          position: relative;
+        }
+
+        .contenedor-contacto ul li img {
+          display: inline-flex;
+          width: 55px;
+          height: 55px;
+          margin-top: 5%;
+          margin-bottom: 5%;
+          margin-left: 2%;
+          padding: 0;
+          flex-direction: column;
+          justify-content: space-around;
+          float: left;
+          position: relative;
+        }
+
+        .contenedor-contacto ul li a {
+          display: inline-flex;
+          width: 80%;
+          height: 35px;
+          margin-top: 4.5%;
+          margin-bottom: 4.5%;
+          margin-left: 2%;
+          font-size: 28px;
+          font-weight: 600;
+          color: rgb(10, 10, 250);
+          align-content: center;
+          flex-direction: column;
+          justify-content: space-around;
+          text-decoration: none;
+          float: left;
+          position: absolute;
+        }
+
+        .contenedor-contacto li a:hover {
+          background-color: rgb(70, 70, 70);
+          color: rgb(230, 230, 230);
+        }
+
+        .gmail {
+          display: inline;
+          width: 35px;
+          height: 35px;
+          font-size: 18;
+          margin-top: 5%;
+          margin-bottom: 4.5%;
+          margin-left: 2%;
+          cursor: pointer;
+        }
+
+        .facebook {
+          display: inline;
+          width: 35px;
+          height: 35px;
+          font-size: 18;
+          margin-top: 5%;
+          margin-bottom: 4.5%;
+          margin-left: 2%;
+          float: left;
+          cursor: pointer;
+        }
+
+        .instagram {
+          display: inline-flex;
+          width: 35px;
+          height: 35px;
+          font-size: 18;
+          margin-top: 5%;
+          margin-bottom: 4.5%;
+          margin-left: 2%;
+          cursor: pointer;
+        }
+
+        .linkedin {
+          display: inline;
+          width: 55px;
+          height: 55px;
+          font-size: 18;
+          margin-top: 5%;
+          margin-bottom: 4.5%;
+          margin-left: 2%;
+          cursor: pointer;
+        }
+
+        .whtps {
+          display: inline;
+          width: 55px;
+          height: 55px;
+          font-size: 18;
+          margin-top: 5%;
+          margin-bottom: 4.5%;
+          margin-left: 2%;
+          cursor: pointer;
+        }
+
+        .youtobe {
+          display: inline;
+          height: 35px;
+          font-size: 18;
+          margin-top: 5%;
+          margin-bottom: 4.5%;
+          margin-left: 2%;
+          cursor: pointer;
+        }
+
+
       }
 
 
@@ -3410,7 +3559,7 @@
 
 /*  *****************************************************************************************
    -----------------------------------------------------------------------------------------*/
-   @media screen and (min-width: 1901px) and (max-width: 2267px) {  /* min-width: 1901 and max-width: 4267 */      
+   @media screen and (min-width: 1901px) and (max-width: 2267px) {  /* min-width: 1901 and max-width: 4267 ///////////////////////////////////*/      
     /*------------------------------------------------------------------------------------------
      ********************************************************************************************/
         body {
@@ -3866,6 +4015,153 @@
           color: rgb(0, 50, 225);
           text-align: justify;
           text-decoration: none;
+        }
+
+        /*********************************************************************/
+        /*-- Aqui va la ventana de Contactos --*/
+        /*-------------------------------------------------------------------*/
+
+        .contenedor-contacto {
+          width: 50%;
+          height: 92vh;
+          margin-top: 0.1%;
+          margin-left: -67.3%; /* 20.2% */ /* -67.3% */
+          border-radius: 15px;
+          background-color: rgb(130, 130, 130);
+          flex-direction: column;
+          align-content: center;
+          justify-content: space-around;
+          position: absolute;
+          display: none; /* flex */ /* none */
+          opacity: 0;
+          z-index: 60;
+        }
+
+        @keyframes muestraContacto {
+          from {
+            opacity: 0;
+          }
+          to {
+            opacity: 1;
+          }
+        }
+
+        .contenedor-contacto.activado {
+          display: block;
+          transform: translate(175%);
+          animation: muestraContacto 350ms ease-in-out both;
+        }
+
+        .conten-cont {
+          display: flex;
+          margin: 0;
+          padding: 0;
+          flex-direction: column;
+          justify-content: space-around;
+          position: relative;
+        }
+
+        .contenedor-contacto ul li img {
+          display: inline-flex;
+          width: 60px;
+          height: 60px;
+          margin-top: 4.5%;
+          margin-bottom: 4.5%;
+          margin-left: 2%;
+          padding: 0;
+          flex-direction: column;
+          justify-content: space-around;
+          float: left;
+          position: relative;
+        }
+
+        .contenedor-contacto ul li a {
+          display: inline-flex;
+          width: 80%;
+          height: 35px;
+          margin-top: 4.5%;
+          margin-bottom: 4.5%;
+          margin-left: 2%;
+          font-size: 30px;
+          font-weight: 600;
+          color: rgb(10, 10, 250);
+          align-content: center;
+          flex-direction: column;
+          justify-content: space-around;
+          text-decoration: none;
+          float: left;
+          position: absolute;
+        }
+
+        .contenedor-contacto li a:hover {
+          background-color: rgb(70, 70, 70);
+          color: rgb(230, 230, 230);
+        }
+
+        .gmail {
+          display: inline;
+          width: 35px;
+          height: 35px;
+          font-size: 22px;
+          margin-top: 5%;
+          margin-bottom: 4.5%;
+          margin-left: 2%;
+          cursor: pointer;
+        }
+
+        .facebook {
+          display: inline;
+          width: 35px;
+          height: 35px;
+          font-size: 22px;
+          margin-top: 5%;
+          margin-bottom: 4.5%;
+          margin-left: 2%;
+          float: left;
+          cursor: pointer;
+        }
+
+        .instagram {
+          display: inline-flex;
+          width: 35px;
+          height: 35px;
+          font-size: 22px;
+          margin-top: 5%;
+          margin-bottom: 4.5%;
+          margin-left: 2%;
+          cursor: pointer;
+        }
+
+        .linkedin {
+          display: inline;
+          width: 55px;
+          height: 55px;
+          font-size: 22px;
+          margin-top: 5%;
+          margin-bottom: 4.5%;
+          margin-left: 2%;
+          cursor: pointer;
+        }
+
+        .whtps {
+          display: inline;
+          width: 55px;
+          height: 55px;
+          font-size: 22px;
+          margin-top: 5%;
+          margin-bottom: 4.5%;
+          margin-left: 2%;
+          cursor: pointer;
+        }
+
+        .youtobe {
+          display: inline;
+          height: 35px;
+          font-size: 22px;
+          margin-top: 5%;
+          margin-bottom: 4.5%;
+          margin-left: 2%;
+          cursor: pointer;
         }
 
 
