@@ -28,3 +28,17 @@ function mostrarRangerarbsoft() {
   document.querySelector(".container-garantia").style.display = "none";
   document.querySelector(".container-cotizacion").style.display = "none";
 }
+//-- Mostrar ventana de presentación de Contacto --//
+const itemDos = document.querySelector(".item-dos");
+const contContacto = document.querySelector(".contenedor-contacto");
+itemDos.addEventListener("click", () => {
+  contContacto.classList.toggle("activado");
+});
+function mostrarContacto() {
+  if ((document.querySelector(".contenedor-contacto").style.display = "block"));
+  document.querySelector(".container-rangerarbsoft").style.display = "none";
+  document.querySelector(".contenedor-productos").style.display = "none";
+  document.querySelector(".contenedor-soporte").style.display = "none";
+  document.querySelector(".container-garantia").style.display = "none";
+  document.querySelector(".container-cotizacion").style.display = "none";
+}
