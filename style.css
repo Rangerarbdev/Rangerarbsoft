@@ -519,36 +519,38 @@
     position: relative;
   }
 
-  .contenedor-contacto ul li img {
-    display: inline-flex;
-    width: 35px;
-    height: 35px;
-    margin-top: 4.5%;
-    margin-bottom: 4.5%;
-    margin-left: 2%;
+  .conten-cont ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
     padding: 0;
-    flex-direction: column;
-    justify-content: space-around;
-    float: left;
-    position: relative;
+    margin: 0;
+  }
+
+  .contenedor-contacto ul li {
+    display: flex;
+    align-content: center;
+    margin-right: 20px;
+  }
+
+  .contenedor-contacto ul li img {
+    width: 40px;
+    height: 40px;
+    margin-top: 15.5%;
+    margin-bottom: 15.5%;
+    margin-right: 10px;
+    display: inline-block;
   }
 
   .contenedor-contacto ul li a {
-    display: inline-flex;
-    width: 80%;
+    display: inline-block;
+    width: auto;
     height: 35px;
-    margin-top: 4.5%;
-    margin-bottom: 4.5%;
-    margin-left: 2%;
-    font-size: 22px;
+    font-size: 24px;
     font-weight: 600;
-    color: rgb(10, 10, 250);
-    align-content: center;
-    flex-direction: column;
-    justify-content: space-around;
+    margin-left: -20%;
+    color: rgb(8, 8, 151);
     text-decoration: none;
-    float: left;
-    position: absolute;
   }
 
   .contenedor-contacto li a:hover {
