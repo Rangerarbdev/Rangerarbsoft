@@ -272,15 +272,15 @@
         /*--Aqui comienza la Ventana de Placeholder --*/
      /*---------------------------------------------------------------------*/
     .icono-placeholder-image {
-        width: 50%;
-        height: 38px;
+        width: 60%;
+        height: 35px;
         margin-top: 0.5px;
         margin-left: -39%; /* -57% */
         padding-top: 2px;
         padding-left: 5%;
         background-color: rgb(50, 250, 80);
-        color: rgb(10, 10, 250);
-        font-size: 20px;
+        color: rgb(40, 40, 40);
+        font-size: 14px;
         border-radius: 10px;
         align-items: center;
         text-align: center;
@@ -300,7 +300,7 @@
 
     .icono-placeholder-image.activado {
         display: flex;
-        transform: translate(129%);
+        transform: translate(100%);
         animation: muestraPlaceholder 370ms ease-in-out both;
     }
 
