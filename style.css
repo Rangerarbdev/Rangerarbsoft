@@ -571,7 +571,7 @@
           .img-rangerarbsoft {
             width: 13%;
             height: 17%;
-            margin-top: 21%;
+            margin-top: 18%;
             margin-left: 45%;
             background-image: url("Imagenes/Alberto Beccari - copia (2).png");
             position: fixed;
@@ -591,9 +591,9 @@
           }
 
           .copyright {
-            width: 40px;
-            height: 40px;
-            margin-top: 1%;
+            width: 35px;
+            height: 35px;
+            margin-top: 0.7%;
             margin-left: 5%;
             padding-top: 0;
             padding-left: 0;
@@ -606,12 +606,12 @@
           .derechos {
             width: 90%;
             height: 20px;
-            margin-top: -2%;
+            margin-top: -2.8%;
             margin-left: 4%;
             padding-top: 0;
             padding-left: 5%;
             font-family: arial, sans-serif, monospace;
-            font-size: 22px;
+            font-size: 18px;
             font-weight: 700;
             color: rgb(10, 10, 250);
             float: left;
@@ -620,12 +620,12 @@
           .periodo {
             width: 20%;
             height: 20px;
-            margin-top: -2%;
+            margin-top: -3%;
             margin-left: 80%;
             padding-top: 0;
             padding-left: 0;
             font-family: arial, sans-serif, monospace;
-            font-size: 22px;
+            font-size: 18px;
             font-weight: 700;
             color: rgb(10, 10, 250);
             float: left;
