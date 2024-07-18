@@ -3120,7 +3120,7 @@
             height: 20px;
             margin-top: 1.5%;
             margin-left: 0.4%;
-            font-family: arial, sans-serif, monospace;
+            font-family: "Roboto", sans-serif;
             font-size: 22px;
             font-weight: 700;
             color: rgb(10, 10, 250);
@@ -3168,7 +3168,7 @@
             height: 20px;
             margin-top: 0.5%;
             margin-left: 23%;
-            font-family: arial, sans-serif, monospace;
+            font-family: "Roboto", sans-serif;
             font-size: 28px;
             font-weight: 700;
             color: rgb(10, 10, 250);
@@ -3180,7 +3180,7 @@
             height: 20px;
             margin-top: -0.1%;
             margin-left: 41%;
-            font-family: arial, sans-serif, monospace;
+            font-family: "Roboto", sans-serif;
             font-size: 22px;
             font-weight: 700;
             color: rgb(10, 10, 250);
@@ -3205,7 +3205,6 @@
             margin-left: 0;
             padding-top: 0px;
             padding-left: 0px;
-            /*  border: 0.5px solid rgb(30, 30, 30); */
             border-radius: 50px;
             float: left;
             cursor: pointer;
@@ -3216,7 +3215,7 @@
             height: 20px;
             margin-top: -2.5%;
             margin-left: 86%;
-            font-family: arial, sans-serif, monospace;
+            font-family: "Roboto", sans-serif;
             font-size: 22px;
             font-weight: 700;
             color: rgb(10, 10, 250);
@@ -3300,7 +3299,7 @@
             margin-left: 4%;
             padding-top: 0;
             padding-left: 5%;
-            font-family: arial, sans-serif, monospace;
+            font-family: "Roboto", sans-serif;
             font-size: 22px;
             font-weight: 700;
             color: rgb(10, 10, 250);
@@ -3314,7 +3313,7 @@
             margin-left: 80%;
             padding-top: 0;
             padding-left: 0;
-            font-family: arial, sans-serif, monospace;
+            font-family: "Roboto", sans-serif;
             font-size: 22px;
             font-weight: 700;
             color: rgb(10, 10, 250);
