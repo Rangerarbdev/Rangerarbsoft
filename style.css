@@ -4329,7 +4329,7 @@
             margin-left: 0;
             padding-top: 0;
             padding-left: 0;
-            border: 0.5px solid rgb(30, 30, 30);
+            border: 3px solid rgb(30, 30, 230);
             border-radius: 50px;
             float: left;
             cursor: pointer;
@@ -4354,7 +4354,6 @@
             height: 60px;
             margin-top: 1%;
             margin-left: 7%;
-            /*  border: 0.5px solid rgb(30, 30, 30); */
             border-radius: 50px;
             float: left;
             position: relative;
@@ -4365,7 +4364,7 @@
             height: 60px;
             margin-top: 0;
             margin-left: 0;
-            /*  border: 0.5px solid rgb(30, 30, 30); */
+            border: 3px solid rgb(30, 30, 230);
             border-radius: 50px;
             float: left;
             cursor: pointer;
@@ -4389,7 +4388,7 @@
             width: 30%;
             height: 20px;
             margin-top: 0.3%;
-            margin-left: 20%;
+            margin-left: 18%;
             font-family: arial, sans-serif, monospace;
             font-size: 34px;
             font-weight: 700;
@@ -4415,20 +4414,19 @@
             height: 60px;
             margin-top: -55px;
             margin-left: 80%;
-            /*  border: 0.5px solid rgb(30, 30, 30); */
             border-radius: 50px;
             float: left;
             cursor: pointer;
           }
         
           .registrarse {
-            width: 40px;
-            height: 40px;
+            width: 60px;
+            height: 60px;
             margin-top: 0;
             margin-left: 0;
             padding-top: 0px;
             padding-left: 0px;
-            /*  border: 0.5px solid rgb(30, 30, 30); */
+            border: 3px solid rgb(30, 30, 230); 
             border-radius: 50px;
             float: left;
             cursor: pointer;
@@ -4452,7 +4450,6 @@
             height: 60px;
             margin-top: -61px;
             margin-left: 93%;
-            /*  border: 0.5px solid rgb(30, 30, 30); */
             border-radius: 50px;
             float: left;
             cursor: pointer;
@@ -4465,7 +4462,7 @@
             margin-left: 0;
             padding-top: 0px;
             padding-left: 0px;
-            /*  border: 0.5px solid rgb(30, 30, 30); */
+            border: 3px solid rgb(30, 30, 230);
             border-radius: 50px;
             float: left;
             cursor: pointer;
